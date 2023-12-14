@@ -1,0 +1,91 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+} */
+
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.calc_cont{
+    display: flex;
+    width: 310px;
+    height: 590px;
+    background-color: black;
+    border-radius: 10%;
+    flex-direction: column;
+    padding: 20px;
+}
+.ac{
+    color: white;
+    display: flex;
+    width: 65px;
+    height:65px;
+    background-color: grey;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.bc{
+    color: white;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: orange;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.cc{
+    color: white;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(206, 198, 198);
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.ec{
+    color: white;
+    display: flex;
+    width: 145px;
+    height: 65px;
+    background-color: grey;
+    border-radius: 50px;
+    justify-content: left;
+}
+.zero{
+    width: 310px;
+    height: 180px;
+    display: flex;
+    justify-content: right;
+}
+.z{
+    color: white;
+    display: flex;
+    font-size: 100px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fr{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.text{
+    font-size: 28px;
+
+}
+/* .divide{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+} */
